@@ -1,0 +1,385 @@
+Meta Data for Log: 0x00303BA0
+        memStart:      0x00010000
+        memStop:       0x0001FFFF
+        head:          0x00010000
+        tail:          0x00017500
+        nextFreeSlot:  0x00017600
+        nextSeqNum:    0x00000077
+        write size:    0x00000100
+Post Scan State: 
+        reqBootKern:      0x0001
+        reqBootFDT:    0x0001
+        reqBootInitrd:    0x0001
+        reqBootFS:        0x0001
+        bootSeqNum:       0x00000007
+        Kernel Table - 
+        tabVers:      0x00000001
+           [0x0] - 
+                vers:       0x0001
+                offset:     0x00040000
+                len:        0x0017AF48
+                compat:     0xFFFE, 0xFFFE, 0xFFFE, 0xFFFE
+                md5:        BB55:86FF:8132:A7BC:CEDF:F6DA:7374:59BB
+                attemptCnt: 0x00000021
+                successCnt: 0x00000017
+           [0x1] - 
+                vers:       0x0001
+                offset:     0x00500000
+                len:        0x0017AF48
+                compat:     0xFFFE, 0xFFFE, 0xFFFE, 0xFFFE
+                md5:        BB55:86FF:8132:A7BC:CEDF:F6DA:7374:59BB
+                attemptCnt: 0x0000000A
+                successCnt: 0x00000000
+           [0x2] - empty
+           [0x3] - empty
+           [0x4] - empty
+           [0x5] - empty
+           [0x6] - empty
+        FDT Table - 
+        tabVers:      0x00000003
+           [0x0] - empty
+           [0x1] - empty
+           [0x2] - empty
+           [0x3] - empty
+           [0x4] - empty
+           [0x5] - empty
+           [0x6] - empty
+        Initrd Table - 
+        tabVers:      0x00000002
+           [0x00] - 
+                vers:       0x0001
+                offset:     0x001C0000
+                len:        0x002CB20E
+                compat:     0xFFFE, 0xFFFE, 0xFFFE, 0xFFFE
+                md5:        C666:29F1:639C:BCCA:917A:5F8A:71A7:E5F2
+                attemptCnt: 0x00000021
+                successCnt: 0x00000017
+           [0x01] - 
+                vers:       0x0001
+                offset:     0x00680000
+                len:        0x002CB20E
+                compat:     0xFFFE, 0xFFFE, 0xFFFE, 0xFFFE
+                md5:        C666:29F1:639C:BCCA:917A:5F8A:71A7:E5F2
+                attemptCnt: 0x0000000A
+                successCnt: 0x00000000
+           [0x02] - empty
+           [0x03] - empty
+           [0x04] - empty
+           [0x05] - empty
+           [0x06] - empty
+        FS Table - 
+        tabVers:      0x00000006
+           [0x000] - 
+                vers:       0x0001
+                offset:     0x00000000
+                len:        0x00000000
+                compat:     0xFFFE, 0xFFFE, 0xFFFE, 0xFFFE
+                attemptCnt: 0x00000000
+                successCnt: 0x00000000
+           [0x001] - 
+                vers:       0x0001
+                offset:     0x00000001
+                len:        0x00000000
+                compat:     0xFFFE, 0xFFFE, 0xFFFE, 0xFFFE
+                attemptCnt: 0x00000000
+                successCnt: 0x00000000
+           [0x002] - 
+                vers:       0x0001
+                offset:     0x00000002
+                len:        0x00000000
+                compat:     0xFFFE, 0xFFFE, 0xFFFE, 0xFFFE
+                attemptCnt: 0x00000000
+                successCnt: 0x00000000
+           [0x003] - 
+                vers:       0x0001
+                offset:     0x00000003
+                len:        0x00000000
+                compat:     0xFFFE, 0xFFFE, 0xFFFE, 0xFFFE
+                attemptCnt: 0x00000000
+                successCnt: 0x00000000
+           [0x004] - 
+                vers:       0x0001
+                offset:     0x00000004
+                len:        0x00000000
+                compat:     0xFFFE, 0xFFFE, 0xFFFE, 0xFFFE
+                attemptCnt: 0x00000000
+                successCnt: 0x00000000
+           [0x005] - 
+                vers:       0x0001
+                offset:     0x00000005
+                len:        0x00000000
+                compat:     0xFFFE, 0xFFFE, 0xFFFE, 0xFFFE
+                attemptCnt: 0x00000000
+                successCnt: 0x00000000
+           [0x006] - empty
+           [0x007] - empty
+           [0x008] - empty
+           [0x009] - empty
+           [0x00A] - empty
+           [0x00B] - empty
+           [0x00C] - empty
+           [0x00D] - empty
+Evaluating MD5 File Table 0x0/0x0: 
+too many attempts
+Evaluating MD5 File Table 0x0/0x1: 
+too many attempts
+No compatible images, using 0/0
+Loading file[0x0/0x0] from 0x00040000 len 0x0017AF48 to 0x20008000
+len 0x17AF48-D696:DA4C:171E:5D8F:2DE5:1179:DD3A:E4CE
+Loading file[0x2/0x0] from 0x001C0000 len 0x002CB20E to 0x20800000
+len 0x2CB20E-C7DA:1CDD:2EB1:C0B4:5166:0D14:F50B:2BED
+Attempting boot:
+        kernel 0x0
+        initrd 0x0
+        rootfs 0x0
+Write to 0x004C1A00 successful
+Write to 0x01FC1A00 successful
+Write to 0x004C1300 successful
+Write to 0x01FC1300 successful
+Write to 0x00017600 successful
+Board Type... Intrepid 1.5
+df  RomBOOT
+Starting NoBrick-BS
+Board Type... Intrepid 1.5
+d& RomBOOT
+Starting NoBrick-BS
+Board Type... Intrepid 1.5
+df reader init (0�RomBOOT
+Starting NoBrick-BS
+Board Type... Intrepid 1.5
+df reader ini�RomBOOT
+Starting NoBrick-BS
+Board Type... Intrepid 1.5
+df reader iniRomBOOT
+Starting NoBrick-BS
+Board Type... Intrepid 1.5
+df reader initRomBOOT
+Starting NoBrick-BS
+Board Type... Intrepid 1.5
+df reader dRomBOOT
+Starting NoBrick-BS
+Board Type... Intrepid 1.5
+df reader i��RomBOOT
+Starting NoBrick-BS
+Board Type... Intrepid 1.5
+df readerRomBOOT
+Starting NoBrick-BS
+Board Type... Intrepid 1.5
+df reade0rrRomBOOT
+Starting NoBrick-BS
+Board Type... Intrepid 1.5
+df reader eRomBOOT
+RomBOOT
+Starting NoBrick-BS
+Board Type... Intrepid 1.5
+df reader init (0x0)...Spansion 256Mb
+Boot device: SPI    chip id: 20C6:0E10:36BF:98CE:2CFF:7C71:3E3F:EF14
+df reader init (0x0)...Spansion 256Mb
+   chip id: 20C6:0E10:36BF:98CE:2CFF:7C71:3E3F:EF14
+df reader init (0x1)...Spansion 256Mb
+   chip id: 0CF6:8156:4FA1:439E:20DB:3F45:21C3:12CE
+Loading part 2 of BS...
+  using 0x0
+Done
+
+ChipID: 0x01AC
+
+-E- No NandFlash detected !!!
+bad i2c checksum: 0E00:00EA:0500:00EA
+bad i2c checksum: 0500:00EA:0500:00EA
+bad i2c checksum: 0500:00EA:2038:0000
+bad i2c checksum: 0500:00EA:0500:00EA
+bad i2c checksum: FEFF:FFEA:FEFF:FFEA
+bad i2c checksum: FEFF:FFEA:FEFF:FFEA
+bad i2c checksum: FEFF:FFEA:FEFF:FFEA
+bad i2c checksum: FEFF:FFEA:0340:0000
+i2c serial number: FEFF:FFEA:0340:0000
+f1id UID match
+f2id UID match
+
+Board number: 0xA205
+Board number: 
+0x3
+NAND to alternative
+console=ttyS0,115200 root=/dev/ram0 rw mtdparts=atmel_nand:32768K(local0),32768K(local1),32768K(local2),32768K(local3),32768K(local4),-(data) imageDevs=spi0.0,spi0.1log_copy_kernel
+Log: 0x00303B10
+   [0x004C0000, 0x00500000): 0x00203824
+Meta Data for Log: 0x00303B10
+        memStart:      0x004C0000
+        memStop:       0x00500000
+        head:          0x004C0000
+        tail:          0x004C1A00
+        nextFreeSlot:  0x004C1B00
+        nextSeqNum:    0x00000078
+        write size:    0x00000100
+Log: 0x00303B34
+   [0x01FC0000, 0x02000000): 0x00203824
+Meta Data for Log: 0x00303B34
+        memStart:      0x01FC0000
+        memStop:       0x02000000
+        head:          0x01FC0000
+        tail:          0x01FC1A00
+        nextFreeSlot:  0x01FC1B00
+        nextSeqNum:    0x00000078
+        write size:    0x00000100
+Log: 0x00303B58
+   [0x004C0000, 0x00500000): 0x00203878
+Meta Data for Log: 0x00303B58
+        memStart:      0x004C0000
+        memStop:       0x00500000
+        head:          0x004C0000
+        tail:          0x004C1300
+        nextFreeSlot:  0x004C1400
+        nextSeqNum:    0x00000078
+        write size:    0x00000100
+Log: 0x00303B7C
+   [0x01FC0000, 0x02000000): 0x00203878
+Meta Data for Log: 0x00303B7C
+        memStart:      0x01FC0000
+        memStop:       0x02000000
+        head:          0x01FC0000
+        tail:          0x01FC1300
+        nextFreeSlot:  0x01FC1400
+        nextSeqNum:    0x00000078
+        write size:    0x00000100
+Log: 0x00303BA0
+   [0x00010000, 0x0001FFFF): 0x002038CC
+Meta Data for Log: 0x00303BA0
+        memStart:      0x00010000
+        memStop:       0x0001FFFF
+        head:          0x00010000
+        tail:          0x00017600
+        nextFreeSlot:  0x00017700
+        nextSeqNum:    0x00000078
+        write size:    0x00000100
+Post Scan State: 
+        reqBootKern:      0x0001
+        reqBootFDT:    0x0001
+        reqBootInitrd:    0x0001
+        reqBootFS:        0x0001
+        bootSeqNum:       0x00000007
+        Kernel Table - 
+        tabVers:      0x00000001
+           [0x0] - 
+                vers:       0x0001
+                offset:     0x00040000
+                len:        0x0017AF48
+                compat:     0xFFFE, 0xFFFE, 0xFFFE, 0xFFFE
+                md5:        BB55:86FF:8132:A7BC:CEDF:F6DA:7374:59BB
+                attemptCnt: 0x00000021
+                successCnt: 0x00000017
+           [0x1] - 
+                vers:       0x0001
+                offset:     0x00500000
+                len:        0x0017AF48
+                compat:     0xFFFE, 0xFFFE, 0xFFFE, 0xFFFE
+                md5:        BB55:86FF:8132:A7BC:CEDF:F6DA:7374:59BB
+                attemptCnt: 0x0000000A
+                successCnt: 0x00000000
+           [0x2] - empty
+           [0x3] - empty
+           [0x4] - empty
+           [0x5] - empty
+           [0x6] - empty
+        FDT Table - 
+        tabVers:      0x00000003
+           [0x0] - empty
+           [0x1] - empty
+           [0x2] - empty
+           [0x3] - empty
+           [0x4] - empty
+           [0x5] - empty
+           [0x6] - empty
+        Initrd Table - 
+        tabVers:      0x00000002
+           [0x00] - 
+                vers:       0x0001
+                offset:     0x001C0000
+                len:        0x002CB20E
+                compat:     0xFFFE, 0xFFFE, 0xFFFE, 0xFFFE
+                md5:        C666:29F1:639C:BCCA:917A:5F8A:71A7:E5F2
+                attemptCnt: 0x00000021
+                successCnt: 0x00000017
+           [0x01] - 
+                vers:       0x0001
+                offset:     0x00680000
+                len:        0x002CB20E
+                compat:     0xFFFE, 0xFFFE, 0xFFFE, 0xFFFE
+                md5:        C666:29F1:639C:BCCA:917A:5F8A:71A7:E5F2
+                attemptCnt: 0x0000000A
+                successCnt: 0x00000000
+           [0x02] - empty
+           [0x03] - empty
+           [0x04] - empty
+           [0x05] - empty
+           [0x06] - empty
+        FS Table - 
+        tabVers:      0x00000006
+           [0x000] - 
+                vers:       0x0001
+                offset:     0x00000000
+                len:        0x00000000
+                compat:     0xFFFE, 0xFFFE, 0xFFFE, 0xFFFE
+                attemptCnt: 0x00000000
+                successCnt: 0x00000000
+           [0x001] - 
+                vers:       0x0001
+                offset:     0x00000001
+                len:        0x00000000
+                compat:     0xFFFE, 0xFFFE, 0xFFFE, 0xFFFE
+                attemptCnt: 0x00000000
+                successCnt: 0x00000000
+           [0x002] - 
+                vers:       0x0001
+                offset:     0x00000002
+                len:        0x00000000
+                compat:     0xFFFE, 0xFFFE, 0xFFFE, 0xFFFE
+                attemptCnt: 0x00000000
+                successCnt: 0x00000000
+           [0x003] - 
+                vers:       0x0001
+                offset:     0x00000003
+                len:        0x00000000
+                compat:     0xFFFE, 0xFFFE, 0xFFFE, 0xFFFE
+                attemptCnt: 0x00000000
+                successCnt: 0x00000000
+           [0x004] - 
+                vers:       0x0001
+                offset:     0x00000004
+                len:        0x00000000
+                compat:     0xFFFE, 0xFFFE, 0xFFFE, 0xFFFE
+                attemptCnt: 0x00000000
+                successCnt: 0x00000000
+           [0x005] - 
+                vers:       0x0001
+                offset:     0x00000005
+                len:        0x00000000
+                compat:     0xFFFE, 0xFFFE, 0xFFFE, 0xFFFE
+                attemptCnt: 0x00000000
+                successCnt: 0x00000000
+           [0x006] - empty
+           [0x007] - empty
+           [0x008] - empty
+           [0x009] - empty
+           [0x00A] - empty
+           [0x00B] - empty
+           [0x00C] - empty
+           [0x00D] - empty
+Evaluating MD5 File Table 0x0/0x0: 
+too many attempts
+Evaluating MD5 File Table 0x0/0x1: 
+too many attempts
+No compatible images, using 0/0
+Loading file[0x0/0x0] from 0x00040000 len 0x0017AF48 to 0x20008000
+len 0x17AF48-D696:DA4C:171E:5D8F:2DE5:1179:DD3A:E4CE
+Loading file[0x2/0x0] from 0x001C0000 len 0x002CB20E to 0x20800000
+len 0x2CB20E-C7DA:1CDD:2EB1:C0B4:5166:0D14:F50B:2BED
+Attempting boot:
+        kernel 0x0
+        initrd 0x0
+        rootfs 0x0
+Write to 0x004C1B00 successful
+Write to 0x01FC1B00 successful
+Write to 0x004C1400 successful
+Write to 0x01FC1400 successful
+Write to 0x00017700 successful
